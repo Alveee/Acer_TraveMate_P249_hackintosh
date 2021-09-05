@@ -1,40 +1,40 @@
 # Acer_TraveMate_P249_hackintosh
 Install Hackintosh(Big Sur & Catalina) in Acer TraveMate P249(i5-6200U)
 
-## 配置
+## Configuration
 * CPU: i5-6200U
-* 内存: 海力士 DDR4 2133MHz 8GB
-* 硬盘: 海康威视 HS-SSD-C160 512G
-* 无线网卡: Intel Wireless 7265
+* Memory: Hynix DDR4 2133MHz 8GB
+* Hard Disk: Hikvision HS-SSD-C160 512G
+* Wireless network card: Intel Wireless 7265
 
-## BIOS 配置
-### 1. 重置 BIOS 为默认配置
+## BIOS Configuration
+### 1. Reset BIOS to default configuration
 
-### 2. 安装 macOS 所需配置
+### 2. Required configuration to install macOS
 * BOOT
   * Secure Boot: Disabled
 
-## 工作状态
-* [x] CPU 变频、原生电源管理
-* [x] 核显
-* [x] 以太网
-* [x] WIFI ([zxystd 大神开发的 Intel 无线网卡驱动](https://github.com/OpenIntelWireless/itlwm))
-* [x] 蓝牙 ([zxystd 大神开发的 Intel 蓝牙驱动](https://github.com/OpenIntelWireless/IntelBluetoothFirmware))
-* [x] 声卡
-* [x] 摄像头
-* [x] 触控板
-* [x] USB 及 USB 扩展
-* [x] HDMI 输出
-* [x] 关机、重启、睡眠
+## Working status
+* [x] CPU Frequency conversion, native power management
+* [x] Nuclear display
+* [x] Ethernet
+* [x] WIFI ([zxystd Intel wireless network card driver developed by Great God](https://github.com/OpenIntelWireless/itlwm))
+* [x] Bluetooth ([zxystd Intel Bluetooth driver developed by Great God](https://github.com/OpenIntelWireless/IntelBluetoothFirmware))
+* [x] Sound card
+* [x] Camera
+* [x] touchpad
+* [x] USB and USB extension
+* [x] HDMI Output
+* [x] Shut down, restart, sleep
 
-## 提醒
+## remind
 
-* 系统安装完, 请使用 OpenCore Configurator 生成 SMBIOS 序列号，否则无法登陆 App Store
+* After the system is installed, please use OpenCore Configurator to generate the SMBIOS serial number, otherwise you will not be able to log in to the App Store
 
-## 更新日志
+## Update log
 
-| 日期      | 详情                                                              |
-|-----------|----------------------------------------------------------------------|
+| date       | Details                                                              |
+|----------- |----------------------------------------------------------------------|
 | 2021.08.11 | OpenCroe 0.7.2 & Big Sur 11.5.1 |
 | 2021.07.06 | OpenCroe 0.7.1 |
 | 2021.06.08 | OpenCroe 0.7.0 & Big Sur 11.4 |
@@ -46,8 +46,8 @@ Install Hackintosh(Big Sur & Catalina) in Acer TraveMate P249(i5-6200U)
 | 2020.12.08 | OpenCroe 0.6.4 & Big Sur 11.1 |
 | 2020.11.03 | OpenCroe 0.6.3 & Big Sur 11.0.1 RC 1 |
 | 2020.10.09 | OpenCroe 0.6.2 & Big Sur 11.0 Beta 9 |
-| 2020.09.21 | 迁移到 OpenCroe 0.6.2 Beta |
+| 2020.09.21 | move to OpenCroe 0.6.2 Beta |
 | 2020.08.24 | Clover 5121 |
 | 2020.08.13 | Clover 5120 |
 | 2020.07.08 | Clover 5119 |
-| 2020.06.02 | 初始版本 |
+| 2020.06.02 | initial version |
